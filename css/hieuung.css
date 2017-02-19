@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.transition{
+	transition: all 1.2s ease-out;
+	opacity: 0;
+}
+.animate-show{
+	opacity: 1;
+}
+.icon-menu.icon-menu-show{
+	background-position: -53px -4px;	
+}
+
+/*==============================================Transition Trang 1===========================================*/
+.transition.animate-show.hinh-0{
+	right: 25px;
+}
+.transition.animate-show.hinh-1{
+	left: 25px;
+}
+.transition.animate-show.noidung-1{
+}
+.transition.animate-show.story{
+}
+/*==============================================Transition Trang 2===========================================*/
+
+.transition.animate-show.hinh-2{
+	left: 20px;
+}
+.transition.animate-show.noidung-2{
+	right: 20px;
+}
+.transition.animate-show.matcha{
+	top: 170px;
+}
+.transition.animate-show.hinh-3{
+	right: 20px;
+}
+.transition.animate-show.noidung-3{
+	bottom: 110px;
+}
+/*==============================================Transition Trang 3===========================================*/
+
+.transition.animate-show.menu{
+}
+.transition.animate-show.hinh-4{
+	top: 170px;
+	left: 30px;
+}
+.transition.animate-show.noidung-4{
+	top: 220px;
+	right: 25px;
+}
+.transition.animate-show.hinh-5{
+	bottom: 80px;
+	right: 20px;
+}
+/*==============================================Transition Trang 4===========================================*/
+
+.transition.animate-show.tet{
+	top: 90px;
+}
+.transition.animate-show.hinh-6{
+	top: 165px;
+	left: 15px;
+}
+.transition.animate-show.noidung-6{
+	top: 190px;
+	right: 15px;
+}
+.transition.animate-show.hinh-7{
+	bottom: 100px;
+	right: 15px;
+}
+.transition.animate-show.hinh-8{
+	bottom: 120px;
+	left: 15px;
+}
+
+					/*==============================================TABLET==========================================*/
+@media only screen and (min-width:40.063em){
+	.icon-menu.icon-menu-show{
+		background-position: -85px -7px;
+	}
+				/*==============================================Transition Trang 1===========================================*/
+	.transition.animate-show.hinh-0{
+		right: 25px;
+	}
+	.transition.animate-show.hinh-1{
+		left: 25px;
+	}
+	.transition.animate-show.noidung-1{
+	}
+	.transition.animate-show.story{
+	}
+				/*==============================================Transition Trang 2===========================================*/
+
+	.transition.animate-show.hinh-2{
+		left: 25px;
+	}
+	.transition.animate-show.noidung-2{
+		right: 10px;
+	}
+	.transition.animate-show.matcha{
+		top: 240px;
+	}
+	.transition.animate-show.hinh-3{
+		right: 25px;
+	}
+	.transition.animate-show.noidung-3{
+		bottom: 120px;
+	}
+				/*==============================================Transition Trang 3===========================================*/
+
+	.transition.animate-show.menu{
+	}
+	.transition.animate-show.hinh-4{
+		top: 185px;
+		left: 35px;
+	}
+	.transition.animate-show.noidung-4{
+		top: 290px;
+		right: 30px;
+	}
+	.transition.animate-show.hinh-5{
+		bottom: 100px;
+		right: 40px;
+	}
+				/*==============================================Transition Trang 4===========================================*/
+
+	.transition.animate-show.tet{
+		top: 120px;
+	}
+	.transition.animate-show.hinh-6{
+		top: 225px;
+		left: 15px;
+	}
+	.transition.animate-show.noidung-6{
+		top: 290px;
+		right: 15px;
+	}
+	.transition.animate-show.hinh-7{
+		bottom: 100px;
+		right: 15px;
+	}
+	.transition.animate-show.hinh-8{
+		bottom: 120px;
+		left: 15px;
+	}
+}
+
+					/*==============================================DESKTOP==========================================*/
+@media only screen and (min-width:64.063em){
+	.icon-menu.icon-menu-show{
+		transition: all 1.2s ease;
+		background-position: -65px -5px;
+	}
+/*==============================================Transition Trang 1===========================================*/
+	.transition.animate-show.hinh-0{
+		right: 75px;
+	}
+	.transition.animate-show.hinh-1{
+		left: 75px;
+	}
+	.transition.animate-show.noidung-1{
+	}
+	.transition.animate-show.story{
+		top: 155px;
+	}
+/*==============================================Transition Trang 2===========================================*/
+
+	.transition.animate-show.hinh-2{
+		left: 65px;
+	}
+	.transition.animate-show.noidung-2{
+		right: 50px;
+	}
+	.transition.animate-show.matcha{
+		top: 100px;
+	}
+	.transition.animate-show.hinh-3{
+		right: 75px;
+	}
+	.transition.animate-show.noidung-3{
+		bottom: 100px;
+	}
+/*==============================================Transition Trang 3===========================================*/
+
+	.transition.animate-show.menu{
+		top: 105px;
+	}
+	.transition.animate-show.hinh-4{
+		top: 175px;
+		left: 125px;
+	}
+	.transition.animate-show.noidung-4{
+		top: 190px;
+		right: 100px;
+	}
+	.transition.animate-show.hinh-5{
+		bottom: 110px;
+		right: 165px;
+	}
+/*==============================================Transition Trang 4===========================================*/
+
+	.transition.animate-show.tet{
+		top: 155px;
+	}
+	.transition.animate-show.hinh-6{
+		top: 145px;
+		left: 75px;
+	}
+	.transition.animate-show.noidung-6{
+		top: 250px;
+		right: 45px;
+	}
+	.transition.animate-show.noidung-7{
+		left: 75px
+	}
+	.transition.animate-show.hinh-7{
+		right: 60px;
+	}
+	.transition.animate-show.hinh-8{
+		bottom: 108px;
+		left: 680px;
+	}
+}

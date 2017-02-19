@@ -1,0 +1,666 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: 'avo';
+	src:url(../font/UTMAvo.eot)format('eot'),
+		url(../font/UTMAvo.woff) format('woff'),
+		url(../font/UTMAvo.ttf) format('truetype');
+}
+div, p, h1{
+	font-family: 'avo';
+}
+						/*--------------------------header---------------*/
+.logo {
+	max-width: 20%;
+	margin-top:10px;
+	float:left;
+}
+.topmenu{
+	overflow: hidden;
+	position: relative;
+	z-index: 100;
+}
+.menuharuno{
+	position: absolute;
+	right: -65%;
+	transition: all 0.7s ease-out;
+	margin-top: 35px;
+}
+.showmenu{
+	right: 0 !important;
+	}
+.icon-menu.icon-menu-show{
+ 	 background-position: -53px -4px;	
+}
+.bavach{
+	float: left;
+	margin-right: 5px;
+}
+.bavach a{
+	width: 39px;
+	height: 28px;
+	display: block;
+}
+.icon-menu{
+	background-image: url(../img/iconmenu.png);
+	background-repeat: no-repeat;
+	background-size: 230%;
+	background-position: 3px -4px;
+	transition: all 0.5s ease;
+}
+.menuan{
+	list-style: none;
+	display: flex;
+	z-index: 1;
+	float: right;
+	margin-left: 5px;
+}
+.menuan li{
+	margin-right: 14px;
+}
+.menuan li a{
+	font-family: "avo";
+	font-size: 12px;
+	color: black;
+}
+.menuan li a span{
+	color:#6a943e;
+	font-weight: bold;
+}
+						/*--------------------------TOPIC---------------*/
+.content{
+	margin-top: 2rem;
+}	
+.topic img{
+	max-width: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.noidung{
+	margin-top: 2rem;
+}
+.noidung p{
+	width: 25rem;
+	text-align: center;
+	margin: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.noidung p span{
+	color: #6a943e;
+	font-weight: bold;
+}
+						/*--------------------------MENU---------------*/
+.menu{
+	padding: 0 !important;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	margin-top: 2rem;
+}
+.menu ul .mochi{
+	position: relative;
+}
+.menu ul li .mochi-noidung{
+	text-align: center;
+	width: 9rem;
+	height: 15rem;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	top: 25px;
+	left: 30px;
+}
+.menu ul li .mochi-noidung h1{
+	color: #6a943e;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+.menu ul li .mochi-noidung p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 8rem;	
+}
+.menu ul li .mochi-mon{
+	margin: 0;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+.menu ul li .mochi-mon a{
+	color: black;
+}
+.menu ul li .mochi-mon li{
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+
+.menu ul .parfait{
+	position: relative;
+}
+.menu ul li .parfait-noidung{
+	text-align: center;
+	width: 10rem;
+	height: 13rem;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	top: 45px;
+	left: 300px;
+}
+.menu ul li .parfait-noidung h1{
+	color: #6a943e;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+.menu ul li .parfait-noidung p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 9rem;	
+}
+.menu ul li .parfait-mon{
+	margin: 0;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+.menu ul li .parfait-mon a{
+	color: black;
+}
+.menu ul li .parfait-mon li{
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+
+.menu ul .matcha{
+	position: relative;
+}
+.menu ul li .matcha-noidung{
+	text-align: center;
+	width: 21rem;
+	height: 8.5rem;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	top: 200px;
+	right: 15px;
+}
+.menu ul li .matcha-noidung h1{
+	color: #6a943e;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 11px;
+}
+.menu ul li .matcha-noidung p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 20rem;	
+}
+.menu ul li .matcha-mon{
+	margin: 0;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+.menu ul li .matcha-mon a{
+	color: black;
+}
+.menu ul li .matcha-mon li{
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+
+.menu ul .kakigori{
+	position: relative;
+}
+.menu ul li .kakigori-noidung{
+	text-align: center;
+	width: 9rem;
+	height: 15rem;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	top: 35px;
+	right: 15px;
+}
+.menu ul li .kakigori-noidung h1{
+	color: #6a943e;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+.menu ul li .kakigori-noidung p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 8rem;	
+}
+.menu ul li .kakigori-mon{
+	margin: 0;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+.menu ul li .kakigori-mon a{
+	color: black;
+}
+.menu ul li .kakigori-mon li{
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+						/*--------------------------FOOTER---------------*/
+footer{
+	margin: 0 50px;
+	padding: 10px 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.chantrang{
+	margin-top: 2rem;
+}
+.list-social{
+	list-style: none;
+	opacity: 0.7;
+	margin: 0;
+}
+.list-social li{
+	display: inline-block;
+}
+.trai{
+	margin-left: 1rem;
+	float: left;
+	font-size: 13px;
+}
+.phai{
+	margin-right: 1rem;
+	float: right;
+}
+.icon{
+	background: url(../img/icon-homepage.png) no-repeat;
+	background-size: 170px;
+}
+.list-social li a{
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin-left: 10px;
+}
+.icon-facebook{
+	background-position: -4px -4px;
+	transition: all .2s ease;
+}
+.icon-facebook:hover{
+	background-position: -4px -50px;
+}
+.icon-instagram{
+	background-position: -50px -4px;
+	transition: all .2s ease;
+}
+.icon-instagram:hover{
+	background-position: -50px -50px;
+
+}
+.list-social li .icon-twitter{
+	width: 23px;
+	background-position: -98px -4px;
+	transition: all .2s ease;
+}
+.list-social li .icon-twitter:hover{
+	background-position: -98px -50px;
+}
+.icon-pinterest{
+	background-position: -143px -4px;
+	transition: all .2s ease;
+}
+.icon-pinterest:hover{
+	background-position: -143px -50px;
+}
+
+@media only screen and (min-width:40.063em){
+	.icon{
+		background-size: 252px;
+	}
+	.trai{
+		font-size: 20px;
+	}
+	.list-social li a{
+		width: 35px;
+		height: 35px;
+		margin-left: 15px;
+	}
+	.icon-facebook{
+		background-position: -8px -7px;
+	}
+	.icon-facebook:hover{
+		background-position: -7px -76px;
+	}
+	.icon-instagram{
+		background-position: -76px -7px;
+	}
+	.icon-instagram:hover{
+		background-position: -76px -76px;
+	}
+	.list-social li .icon-twitter{
+		width: 34px;
+		background-position: -145px -7px;
+	}
+	.list-social li .icon-twitter:hover{
+		background-position: -145px -76px;
+	}
+	.list-social li .icon-pinterest{
+		width: 29px;
+		background-position: -216px -7px;
+	}
+	.list-social li .icon-pinterest:hover{
+		background-position: -216px -76px;
+	}
+	p, a{
+		font-size: 20px !important;
+	}
+	.menuharuno{
+		top: 15px;
+		right: -65.5%;
+	}
+	.icon-menu.icon-menu-show{
+	background-position: -85px -7px;
+	}
+	.icon-menu{
+		background-size: 300%;
+		background-position: -8px -8px;
+	}
+	.bavach{
+		margin-right: 15px;
+	}
+	.bavach a{
+		width: 45px;
+		height: 37px;
+	}
+	.menu ul{
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.menuan li{
+		margin-right: 20px;
+	}
+	.menuan li a{
+		font-size: 20px;
+	}
+	.noidung p{
+		width: 35rem;
+		font-size: 22px !important;
+	}
+	.menu ul li .mochi-hinh{
+		width: 33rem;		
+	}
+	.menu ul li .mochi-noidung{
+		width: 12rem;
+		height: 18rem;
+		top: 60px;
+		left: 25px;
+	}
+	.menu ul li .mochi-noidung h2 {
+		margin-top: 20px;
+		color: #6a943e;
+		font-weight: bold;
+	}
+	.menu ul li .mochi-noidung p{
+		width: 11rem;
+	}
+	.menu ul li .mochi-mon {
+		padding-top: 20px;
+		margin-left: 35px;
+	}
+	.menu ul li .parfait-hinh{
+		width: 33rem;		
+	}
+	.menu ul li .parfait-mon{
+		width: 15rem;
+		margin-top: 50px;
+	}
+	.menu ul li .parfait-noidung{
+		width: 11rem;
+		height: 19rem;
+		top: 54px;
+		left: 540px;
+	}
+	.menu ul li .parfait-noidung h2{
+		margin-top: 9px;
+		color: #6a943e;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+	.menu ul li .parfait-noidung p{
+		width: 9rem;
+	}
+	.menu ul li .matcha-hinh{
+		width: 31rem;		
+	}
+	.menu ul li .matcha-noidung{
+		width: 25rem;
+		height: 10rem;
+		top: 225px;
+		left: 85px;
+	}
+	.menu ul li .matcha-noidung h2{
+		margin-top: 0;
+		color: #6a943e;
+		font-weight: bold;
+		margin-bottom: -5px;
+	}
+	.menu ul li .matcha-noidung p{
+		width: 25rem;
+	}
+	.menu ul li .matcha-mon{
+		padding-top: 50px;
+		margin-left: 20px;
+	}
+	.menu ul li .kakigori-hinh{
+		width: 30rem;		
+	}
+	.menu ul li .kakigori-noidung h2{
+		margin-top: 9px;
+		color: #6a943e;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+	.menu ul li .kakigori-mon{
+		width: 18rem;
+		margin-top: 35px;
+	}
+	.menu ul li .kakigori-noidung{
+		width: 12rem;
+		height: 17rem;
+		top: 50px;
+		right: 9px;
+	}
+	.menu ul li .kakigori-noidung h2{
+		margin-top: 7px;
+	}
+	.menu ul li .kakigori-noidung p{
+		width: 10rem;
+	}
+}
+
+@media only screen and (min-width:64.063em){
+	.logo{
+		margin-top: 20px;
+		max-width: 13%;
+	}
+	.menuharuno{
+		top: 27px;
+		right: -42%;
+	}
+	.bavach{
+		margin-top: 5px;
+		margin-right: 20px;
+	}
+	.bavach a{
+		width: 35px;
+		height: 31px;
+	}
+	.icon-menu{
+		background-position: -6px -5px;
+	}
+	.menuan li a{
+		font-size: 22px;
+		position: relative;
+	}
+	.menuan li a:after{
+		content: '';
+		width: 0%;
+		height: 2px;
+		background-color: #6a943e;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -2px;
+		margin-left: auto;
+		margin-right: auto;
+		transition: width 0.25s ease-out;
+	}
+	.menuan li a:hover:after{
+		width: 100%;
+	}
+	.icon-menu.icon-menu-show{
+		transition: all 1.2s ease;
+		background-position: -65px -5px;
+	}
+	.trai{
+		margin: 0;
+		font-size: 14px;
+	}
+	.phai{
+		margin: 0;
+	}
+	.icon{
+		background-size: 180px;
+	}
+	.list-social li a{
+		width: 25px;
+		height: 25px;
+		margin-right: 0;
+		margin-left: 15px;
+	}
+	.icon-facebook{
+		background-position: -5px -5px;
+	}
+	.icon-facebook:hover{
+		background-position: -5px -54px;
+	}
+	.icon-instagram{
+		background-position: -54px -5px;
+	}
+	.icon-instagram:hover{
+		background-position: -54px -54px;
+	}
+	.list-social li .icon-twitter{
+		width: 24px;
+		background-position: -104px -5px;
+	}
+	.list-social li .icon-twitter:hover{
+		background-position: -104px -54px;
+	}
+	.list-social li .icon-pinterest{
+		width: 21px;
+		background-position: -154px -5px;
+	}
+	.list-social li .icon-pinterest:hover{
+		background-position: -154px -54px;
+	}
+	.topic img{
+		max-width: 18%;
+	}
+	.noidung p{
+		width: 45rem;
+	}
+	.menu ul li .parfait-mon, .menu ul li .kakigori-mon{
+		margin-left: 410px;
+		margin-right: 20px;
+	}
+	.menu ul li .parfait-noidung{
+		left: 1000px;
+	}
+	.menu ul li .matcha-mon{
+		padding-top: 40px;
+	}
+	.menu ul li .matcha-mon li, .menu ul li .kakigori-mon li{
+		margin-bottom: 10px;
+	}
+	.menu ul li a{
+		font-size: 22px;
+		position: relative;
+	}
+	.menu ul li a:after{
+		content: '';
+		width: 0%;
+		height: 2px;
+		background-color: #6a943e;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -2px;
+		margin-left: auto;
+		margin-right: auto;
+		transition: width 0.25s ease-out;
+	}
+	.menu ul li a:hover:after{
+		width: 100%;
+	}
+	#hinh-1, #hinh-2, #hinh-3, #hinh-4, #hinh-5, #hinh-6, #hinh-7, #hinh-8 {
+		position: absolute;
+		width: 16rem;
+		z-index: 1;
+		margin-left: 52rem;
+		margin-top: 8rem;
+		transition: opacity 0.25s ease;
+		opacity: 0;
+	}
+	#hinh-9, #hinh-10, #hinh-11, #hinh-12, #hinh-13, #hinh-14{
+		position: absolute;
+		width: 16rem;
+		z-index: 1;
+		margin-left: 5rem;
+		margin-top: 30.6rem;
+		transition: opacity 0.25s ease;
+		opacity: 0;
+	}
+	#hinh-15, #hinh-16, #hinh-17, #hinh-18, #hinh-19, #hinh-20, #hinh-21{
+		position: absolute;
+		width: 16rem;
+		z-index: 1;
+		margin-left: 54rem;
+		margin-top: 55.6rem;
+		transition: opacity 0.25s ease;
+		opacity: 0;
+	}
+	#hinh-22, #hinh-23, #hinh-24, #hinh-25, #hinh-26{
+		position: absolute;
+		width: 16rem;
+		height: 16rem;
+		z-index: 1;
+		margin-left: 5rem;
+		margin-top: 77.6rem;
+		transition: opacity 0.25s ease;
+		opacity: 0;
+	}
+}
+

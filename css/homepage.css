@@ -1,0 +1,774 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: 'avo';
+	src:url(../font/UTMAvo.eot)format('eot'),
+		url(../font/UTMAvo.woff) format('woff'),
+		url(../font/UTMAvo.ttf) format('truetype');
+}
+p{
+	font-family: 'avo';
+}
+
+/*==============================================MENU AN===========================================*/
+.menuholder{
+	position: relative;
+	z-index: 100;
+}
+.menuharuno{
+	position: absolute;
+	top: 37px;
+	right: -65%;
+	transition: all 0.7s ease-out;
+}
+.showmenu{
+	right: 0;
+	}
+.bavach{
+	float: left;
+	margin-right: 5px;
+}
+.bavach a{
+	width: 39px;
+	height: 28px;
+	display: block;
+}
+.icon-menu{
+	background-image: url(../img/iconmenu.png);
+	background-repeat: no-repeat;
+	background-size: 230%;
+	background-position: 3px -4px;
+	transition: all 0.5s ease;
+}
+.menuan{
+	list-style: none;
+	display: flex;
+	z-index: 1;
+	float: right;
+	margin-left: 5px;
+}
+.menuan li{
+	margin-right: 14px;
+}
+.menuan li a{
+	font-family: 'avo';
+	font-size: 12px;
+	color: black;
+}
+.menuan li a span{
+	color:#6a943e;
+	font-weight: bold;
+}
+/*============================================== BODY ===========================================*/
+
+.logo{
+	max-width: 20%;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+}
+#fullpage {
+	z-index: 0
+}
+#fullpage p{
+		font-size: 14px;
+}
+#fullpage h1{
+	font-family: 'avo';
+}
+/*==============================================SLIDE     1===========================================*/
+#section0{
+	position: relative;
+}
+.story{
+	max-width: 30%;
+	position: absolute;
+	top: 90px;
+	right: 85px;
+}
+.hinh-0{
+	max-width: 60%;
+	position: absolute;
+	bottom: 85px;
+	right: 0;
+}
+.hinh-1{
+	position: absolute;
+	max-width: 60%;
+	top: 170px;
+	left: 0;
+	z-index: 1;
+}
+.noidung-1{
+	position: absolute;
+	z-index: 0;
+	top: 375px;
+	right: 55px;
+}
+.noidung-1>p{
+	width: 22rem;
+}
+/*==============================================SLIDE    2===========================================*/
+#section1{
+	position: relative;
+}
+.hinh-2{
+	max-width: 40%;
+	position: absolute;
+	top: 115px;
+	left: 0;
+	z-index: 1;
+}
+.noidung-2{
+	position: absolute;
+	top: 260px;
+	right: 0;
+}
+.noidung-2>p{
+	width: 15rem;
+}
+.matcha{
+	max-width: 30%;
+	position: absolute;
+	top: 90px;
+	right: 70px;
+}
+.hinh-3{
+	max-width: 57%;
+	position: absolute;
+	bottom: 100px;
+	right: 0;
+	z-index: 1;	
+}
+.noidung-3{
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+.noidung-3>p{
+	width: 10rem;
+	margin: 0;
+}
+/*==============================================SLIDE    3===========================================*/
+#section2{
+	position: relative;
+}
+.menu{
+	max-width: 30%;
+	position: absolute;
+	top: 110px;
+	right: 85px;
+}
+.hinh-4{
+	max-width: 35%;
+	position: absolute;
+	top: 250px;
+	left: 130px;
+	z-index: 1;
+}
+.noidung-4{
+	position: absolute;
+	top: 300px;
+	right: 125px;
+}
+.noidung-4>p{
+	width: 15rem;
+}
+.hinh-5{
+	position: absolute;
+	bottom: 120px;
+	right: 120px;
+	z-index: 1;	
+	width: 12rem;
+	height: 12rem;
+	overflow: hidden;
+}
+.hinh-5 img{
+	max-width: 105%;
+	position: absolute;
+	top: -59px
+}
+.noidung-5{
+	width: 15rem;
+	position: absolute;
+	bottom: 175px;
+	left: 20px;
+}
+.noidung-5 h2{
+	float: left;
+}
+.noidung-5 h2 span{
+	position: absolute;
+	left: 85px;
+	top:  25px;
+}
+/*==============================================SLIDE     4===========================================*/
+
+
+.tet{
+	max-width: 30%;
+	position: absolute;
+	top: 0;
+	right: 85px;
+	z-index: 1;
+}
+.hinh-6{
+	max-width: 62%;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.noidung-6{
+	position: absolute;
+	top: 90px;
+	right: 90px;
+}
+.noidung-6>p{
+	width: 9rem;
+	padding: 0;
+	margin: 0;
+}
+.hinh-7{
+	max-width: 55%;
+	position: absolute;
+	bottom: 0;
+	right: 95px;
+	z-index: 1;	
+}
+.noidung-7{
+	position: absolute;
+	bottom: 275px;
+	left: 15px;
+}
+.noidung-7>p{
+	width: 29rem;
+}
+.hinh-8{
+	max-width: 45%;
+	position: absolute;
+	bottom: 0;
+	left: 155px;
+}
+/*==============================================	FOOTER 	;===========================================*/
+footer{
+	margin: 0 50px;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.list-social{
+	list-style: none;
+	opacity: 0.7;
+	margin: 0;
+}
+.list-social li{
+	display: inline-block;
+}
+.trai{
+	margin-left: 1rem;
+	float: left;
+	font-size: 13px;
+}
+.phai{
+	float: right;
+}
+.icon{
+	background: url(../img/icon-homepage.png) no-repeat;
+	background-size: 170px;
+}
+.list-social li a{
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin-right: 10px;
+}
+.icon-facebook{
+	background-position: -4px -4px;
+	transition: all .2s ease;
+}
+.icon-facebook:hover{
+	background-position: -4px -50px;
+}
+.icon-instagram{
+	background-position: -50px -4px;
+	transition: all .2s ease;
+}
+.icon-instagram:hover{
+	background-position: -50px -50px;
+
+}
+.list-social li .icon-twitter{
+	width: 23px;
+	background-position: -98px -4px;
+	transition: all .2s ease;
+}
+.list-social li .icon-twitter:hover{
+	background-position: -98px -50px;
+}
+.icon-pinterest{
+	background-position: -143px -4px;
+	transition: all .2s ease;
+}
+.icon-pinterest:hover{
+	background-position: -143px -50px;
+
+}
+						/*==============================================TABLET==========================================*/
+
+@media only screen and (min-width:40.063em){	
+	#fullpage p{
+		font-size: 22px;
+	}
+	/*==============================================Menu An===========================================*/
+
+	.logo{
+		top: 15px;
+		left: 15px;
+	}
+	.menuharuno{
+		top: 50px;
+		right: -65.5%;
+	}
+	.showmenu{
+		right: 0;
+	}
+	.icon-menu{
+		background-size: 300%;
+		background-position: -8px -8px;
+	}
+	.bavach{
+		margin-right: 15px;
+	}
+	.bavach a{
+		width: 45px;
+		height: 37px;
+	}
+	.menuan li{
+		margin-right: 20px;
+	}
+	.menuan li a{
+		font-size: 20px;
+	}
+	
+	/*==============================================	FOOTER: ;===========================================*/
+	.icon{
+		background-size: 252px;
+	}
+	.trai{
+		font-size: 20px;
+	}
+	.list-social li a{
+		width: 35px;
+		height: 35px;
+		margin-right: 15px;
+	}
+	.icon-facebook{
+		background-position: -8px -7px;
+	}
+	.icon-facebook:hover{
+		background-position: -7px -76px;
+	}
+	.icon-instagram{
+		background-position: -76px -7px;
+	}
+	.icon-instagram:hover{
+		background-position: -76px -76px;
+	}
+	.list-social li .icon-twitter{
+		width: 34px;
+		background-position: -145px -7px;
+	}
+	.list-social li .icon-twitter:hover{
+		background-position: -145px -76px;
+	}
+	.list-social li .icon-pinterest{
+		width: 29px;
+		background-position: -216px -7px;
+	}
+	.list-social li .icon-pinterest:hover{
+		background-position: -216px -76px;
+	}
+/*==============================================SLIDE     1===========================================*/
+	.story{
+		top: 120px;
+		right: 160px;
+	}
+	.noidung-1{
+		top: 550px;
+		right: 90px;
+	}
+	.noidung-1>p{
+		width: 34rem;
+	}
+	.hinh-1{
+		top: 230px;
+	}
+	.hinh-0{
+		max-width: 55%;
+		bottom: 90px;
+	}
+/*==============================================SLIDE     2===========================================*/
+	.matcha{
+		top: 140px;
+		right: 110px;
+	}
+	.hinh-2{
+		max-width: 43%;
+		top: 160px;
+	}
+	.noidung-2{
+		top: 370px;
+	}
+	.noidung-2>p{
+		width: 24rem;
+	}
+	.hinh-3{
+		max-width: 50%;
+		bottom: 100px;
+	}
+	.noidung-3{
+		left: 25px;
+	}
+	.noidung-3>p{
+		width: 20rem;
+	}
+	
+/*==============================================SLIDE     3===========================================*/
+	.menu{
+		top: 140px;
+		right: 100px;
+	}
+	.hinh-4{
+		max-width: 40%;
+		top: 350px;
+		height: 250px;
+	}
+	.noidung-4{
+		top: 450px;
+		right: 160px;
+	}
+	.noidung-4>p{
+		width: 23rem;
+	}
+	.noidung-5{
+		width: 25rem;
+		bottom: 220px;
+		left: 40px;
+	}
+	.hinh-5{
+		width: 17rem;
+		height: 17rem;
+		bottom: 200px;
+		right: 210px;
+	}
+	.hinh-5 img{
+		top: -82px;
+	}
+/*==============================================SLIDE     4===========================================*/
+	.tet{
+		top: 20px;
+		right: 160px;
+	}
+	.hinh-6{
+		max-width: 60%;
+		top: 125px;
+		left: 150px;
+	}
+	.noidung-6{
+		top: 120px;
+		right: 125px;
+	}
+	.noidung-6>p{
+		width: 16rem;
+	}
+	.noidung-7{
+		bottom: 385px;
+		left: 33px;
+	}
+	.noidung-7>p{
+		width: 45rem;
+	}
+}
+						/*==============================================DESKTOP==========================================*/
+@media only screen and (min-width:64.063em){
+	#fullpage p{
+		font-size: 18px;
+	}
+	.logo{
+		left: 20px;
+		max-width: 10%;
+	}
+	.menuharuno{
+		top: 44px;
+		right: -545px;
+	}
+	.showmenu{
+		right: 0;
+	}
+	.bavach{
+		margin-top: 5px;
+		margin-right: 20px;
+	}
+	.bavach a{
+		width: 35px;
+		height: 31px;
+	}
+	.icon-menu{
+		background-position: -6px -5px;
+	}
+	.menuan li a{
+		font-size: 22px;
+		position: relative;
+	}
+	.menuan li a:after{
+		content: '';
+		width: 0%;
+		height: 2px;
+		background-color: #6a943e;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -2px;
+		margin-left: auto;
+		margin-right: auto;
+		transition: width 0.25s ease-out;
+	}
+	.menuan li a:hover:after{
+		width: 100%;
+	}
+/*==============================================SLIDE     1/1===========================================*/
+	.slide{
+	position: relative;
+}
+	.hinh-11{
+		max-width: 55%;
+		position: absolute;
+		top: 120px;
+		left: 300px;
+	}
+	.noidung-10{
+		font-family: 'avo';
+		width: 69rem;
+		position: absolute;
+		bottom: 80px;
+		left: 100px;
+	}
+/*==============================================SLIDE     1/2===========================================*/
+	.valentine{
+		max-width: 18%;
+		position: absolute;
+		top: 125px;
+		right: 250px;
+	}
+	.hinh-9{
+		max-width: 35%;
+		position: absolute;
+		top: 150px;
+		left: 115px;
+	}
+	.noidung-8{
+		width: 36rem;
+		position: absolute;
+		top: 240px;
+		right: 120px;
+		font-family: 'avo';
+	}
+	.combo1{
+		color: #6a943e;
+		font-family: 'avo';
+		position: absolute;
+		top: 190px;
+		right: 340px;
+	}
+	.hinh-10{
+		max-width: 35%;
+		position: absolute;
+		bottom: 70px;
+		right: 100px;
+	}
+	.combo2{
+		color: #6a943e;
+		font-family: 'avo';
+		position: absolute;
+		bottom: 190px;
+		left: 270px;
+	}
+	.noidung-9{
+		font-family: 'avo';
+		width: 36rem;
+		position: absolute;
+		bottom: 120px;
+		left: 130px;
+	}
+/*==============================================SLIDE     1===========================================*/
+	.story{
+		max-width: 13%;
+		top: 55px;
+		right: 370px;
+	}
+	.noidung-1{
+		top: 245px;
+		right: 95px;
+	}
+	.noidung-1>p{
+		width: 39rem;
+	}
+	.hinh-1{
+		max-width: 35%;
+		top: 170px;
+	}
+	.hinh-0{
+		max-width: 30%;
+		bottom: 90px;
+	}
+/*==============================================SLIDE     2===========================================*/
+	.matcha{
+		max-width: 13%;
+		top: 0;
+		right: 355px;
+	}
+	.hinh-2{
+		max-width: 35%;
+		top: 160px;
+	}
+	.noidung-2{
+		top: 195px;
+	}
+	.noidung-2>p{
+		width: 40rem;
+	}
+	.hinh-3{
+		max-width: 30%;
+		bottom: 100px;
+	}
+	.noidung-3{
+		left: 115px;
+	}
+	.noidung-3>p{
+		width: 43rem;
+	}
+	
+/*==============================================SLIDE     3===========================================*/
+	.menu{
+		max-width: 13%;
+		top: 0;
+		right: 400px;
+	}
+	.hinh-4{
+		max-width: 20%;
+		top: 175px;
+		left: 25px;
+	}
+	.noidung-4{
+		top: 190px;
+		right:0;
+	}
+	.noidung-4>p{
+		width: 48rem;
+	}
+	.noidung-5{
+		width: 25rem;
+		bottom: 220px;
+		left: 445px;
+	}
+	.hinh-5{
+		width: 14rem;
+		height: 14rem;
+		bottom: 0;
+		right: 165px;
+	}
+	.hinh-5 img{
+		top: -65px;
+	}
+/*==============================================SLIDE     4===========================================*/
+	.tet{
+		max-width: 13%;
+		top: 100px;
+		right: 250px;
+	}
+	.hinh-6{
+		max-width: 43%;
+		top: 145px;
+		left: 175px;
+	}
+	.noidung-6{
+		top: 250px;
+		right: 145px;
+	}
+	.noidung-6>p{
+		width: 37rem;
+	}
+	.noidung-7{
+		bottom: 130px;
+		left: 275px;
+	}
+	.noidung-7>p{
+		width: 36rem;
+
+	}
+	.hinh-7{
+		max-width: 22%;
+		right: 0;
+		bottom: 100px
+	}
+	.hinh-8{
+		max-width: 20%;
+		bottom: 108px;
+		left: 782px;
+	}
+/*==============================================	FOOTER 	;===========================================*/
+	.content{
+		max-width: 100%;
+		margin: 0 40px;
+	}
+	.trai{
+		margin: 0;
+		font-size: 14px;
+	}
+	.icon{
+		background-size: 180px;
+	}
+	.list-social li a{
+		width: 25px;
+		height: 25px;
+		margin-right: 0;
+		margin-left: 15px;
+	}
+	.icon-facebook{
+		background-position: -5px -5px;
+	}
+	.icon-facebook:hover{
+		background-position: -5px -54px;
+	}
+	.icon-instagram{
+		background-position: -54px -5px;
+	}
+	.icon-instagram:hover{
+		background-position: -54px -54px;
+	}
+	.list-social li .icon-twitter{
+		width: 24px;
+		background-position: -104px -5px;
+	}
+	.list-social li .icon-twitter:hover{
+		background-position: -104px -54px;
+	}
+	.list-social li .icon-pinterest{
+		width: 21px;
+		background-position: -154px -5px;
+	}
+	.list-social li .icon-pinterest:hover{
+		background-position: -154px -54px;
+	}
+	
+}

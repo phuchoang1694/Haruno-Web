@@ -1,0 +1,737 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: 'avo';
+	src:url(../font/UTMAvo.eot)format('eot'),
+		url(../font/UTMAvo.woff) format('woff'),
+		url(../font/UTMAvo.ttf) format('truetype');
+}
+.logo {
+	max-width: 20%;
+	margin-top:10px;
+	float:left;
+}
+.topmenu{
+	overflow: hidden;
+	position: relative;
+	z-index: 100;
+}
+.menuharuno{
+	position: absolute;
+	right: -65%;
+	transition: all 0.7s ease-out;
+	margin-top: 35px;
+}
+.showmenu{
+	right: 0 !important;
+	}
+.icon-menu.icon-menu-show{
+ 	 background-position: -53px -4px;	
+}
+.bavach{
+	float: left;
+	margin-right: 5px;
+}
+.bavach a{
+	width: 39px;
+	height: 28px;
+	display: block;
+}
+.icon-menu{
+	background-image: url(../img/iconmenu.png);
+	background-repeat: no-repeat;
+	background-size: 230%;
+	background-position: 3px -4px;
+	transition: all 0.5s ease;
+}
+.menuan{
+	list-style: none;
+	display: flex;
+	z-index: 1;
+	float: right;
+	margin-left: 5px;
+}
+.menuan li{
+	margin-right: 14px;
+}
+.menuan li a{
+	font-family: "avo";
+	font-size: 12px;
+	color: black;
+}
+.menuan li a span{
+	color:#6a943e;
+	font-weight: bold;
+}
+	
+/*--------------------------header---------------*/
+.tag img {
+	}
+.tag {
+	width:30%;
+	margin-top:1rem;
+	/*background-color:#CCC;*/
+	}
+.khung{
+	max-width:80%;
+	height:10rem;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	}
+.khung p {
+	background-image:url(../img/trial.png);
+	background-size:100%;
+	background-position:50% 43.5%;
+	background-repeat:no-repeat;
+	padding:1rem;
+	padding-top:-1rem;
+	font-size:.55rem;
+	text-align:justify;
+	font-family:"avo";
+	}
+
+.khung2 {
+	/*background-color:#CCC;*/
+	
+	}
+.khung2 img {
+	padding-top:1rem;
+	margin-left:2rem;
+	width:80%;
+	height:80%;
+	
+	}
+.text2{
+	list-style:none;
+	display:block;
+	}
+.text2 p{
+	font-family:"avo";
+	font-size:11px;
+	}
+.text3{
+	list-style:none;
+	display:block;
+	}
+.text3 p{
+	font-family:"avo";
+	font-size:11px;
+	}
+.hinhminhhoa {
+	background-image:url(../img/DSC_1468.png);
+	background-size:80%;
+	background-position:1rem;
+	background-repeat:no-repeat;
+	margin-bottom:.5rem;
+	}
+.hinhminhhoa2{
+	background-image:url(../img/2.png);
+	background-size:80%;
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+
+	
+	/*--------------------------------------------------------------------------------------------*/
+.khungtag img {
+	float:left;
+	}
+.khungtag {
+	}
+.nv p {
+	font-family:"avo";
+	text-align:center;
+	}	
+.nv ul{
+	list-style:none;
+	}
+.nv {
+	margin-top:-1rem;
+	}
+.nv ul img {
+	width:100%;
+	}
+/*--------------------------------------------------------------------------------------*/
+footer{
+	margin: 0 50px;
+	padding: 10px 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.chantrang{
+	margin-top: 2rem;
+}
+.list-social{
+	list-style: none;
+	opacity: 0.7;
+	margin: 0;
+}
+.list-social li{
+	display: inline-block;
+}
+.trai{
+	margin-left: 1rem;
+	float: left;
+	font-size: 13px;
+}
+.phai{
+	margin-right: 1rem;
+	float: right;
+}
+.icon{
+	background: url(../img/icon-homepage.png) no-repeat;
+	background-size: 170px;
+}
+.list-social li a{
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin-left: 10px;
+}
+.icon-facebook{
+	background-position: -4px -4px;
+	transition: all .2s ease;
+}
+.icon-facebook:hover{
+	background-position: -4px -50px;
+}
+.icon-instagram{
+	background-position: -50px -4px;
+	transition: all .2s ease;
+}
+.icon-instagram:hover{
+	background-position: -50px -50px;
+
+}
+.list-social li .icon-twitter{
+	width: 23px;
+	background-position: -98px -4px;
+	transition: all .2s ease;
+}
+.list-social li .icon-twitter:hover{
+	background-position: -98px -50px;
+}
+.icon-pinterest{
+	background-position: -143px -4px;
+	transition: all .2s ease;
+}
+.icon-pinterest:hover{
+	background-position: -143px -50px;
+}
+/*----------------------------------------*/
+.bannerbox {
+	background-color:#666;
+	}
+	.Banner {
+}
+	* {
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+		      box-sizing:border-box;
+}
+.bannerBox {
+	height:216px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	width:100%;
+	position:relative;
+	/*background:#C60;*/
+	overflow:hidden;
+}
+.bannerBox > div {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	left:100%;
+}
+.bannerBox > div:first-child {left:0}
+.banner1 { background-image:url(../img/mt-aug13-0175-edit-u3170-fr.jpg); }
+.banner2 { background-image:url(../img/mt-aug13-0247-edit-u2892-fr.jpg); }
+.banner3 { background-image:url(../img/dd.jpg); }
+.banner4 { background-image:url(../img/Opening2-1024x621.jpg); }
+
+.Bonvong {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:100%;
+	position:absolute;
+	bottom:1%;
+	display:flex;
+	justify-content:center;
+}
+.Bonvong li {
+	margin:.5rem;
+	cursor:pointer;
+	background:#FFFFFF;
+	width:.5rem;
+	height:.5rem;
+	border-radius:50%;
+	text-indent:-99999px;
+}
+.Bonvong li.hienhanh {
+	background-color:#BABCBE;}	
+
+	/*---------------------------------------banner--------------------------------*/
+@media only screen and (min-width:40.063rem){
+.icon{
+		background-size: 252px;
+	}
+	.trai{
+		font-size: 20px;
+	}
+	.list-social li a{
+		width: 35px;
+		height: 35px;
+		margin-left: 15px;
+	}
+	.icon-facebook{
+		background-position: -8px -7px;
+	}
+	.icon-facebook:hover{
+		background-position: -7px -76px;
+	}
+	.icon-instagram{
+		background-position: -76px -7px;
+	}
+	.icon-instagram:hover{
+		background-position: -76px -76px;
+	}
+	.list-social li .icon-twitter{
+		width: 34px;
+		background-position: -145px -7px;
+	}
+	.list-social li .icon-twitter:hover{
+		background-position: -145px -76px;
+	}
+	.list-social li .icon-pinterest{
+		width: 29px;
+		background-position: -216px -7px;
+	}
+	.list-social li .icon-pinterest:hover{
+		background-position: -216px -76px;
+	}
+	.menuharuno{
+		top: 15px;
+		right: -65.5%;
+	}
+	.icon-menu.icon-menu-show{
+	background-position: -85px -7px;
+	}
+	.icon-menu{
+		background-size: 300%;
+		background-position: -8px -8px;
+	}
+	.bavach{
+		margin-right: 15px;
+	}
+	.bavach a{
+		width: 45px;
+		height: 37px;
+	}
+	.menu ul{
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.menuan li{
+		margin-right: 20px;
+	}
+	.menuan li a{
+		font-size: 20px;
+	}
+.bannerbox {
+	background-color:#666;
+	}
+	.Banner {
+}
+	* {
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+		      box-sizing:border-box;
+}
+.bannerBox {
+	height:400px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	width:100%;
+	position:relative;
+	/*background:#C60;*/
+	overflow:hidden;
+}
+.bannerBox > div {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	left:100%;
+}
+.bannerBox > div:first-child {left:0}
+.banner1 { background-image:url(../img/mt-aug13-0175-edit-u3170-fr.jpg); }
+.banner2 { background-image:url(../img/mt-aug13-0247-edit-u2892-fr.jpg); }
+.banner3 { background-image:url(../img/dd.jpg); }
+.banner4 { background-image:url(../img/Opening2-1024x621.jpg); }
+
+.Bonvong {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:100%;
+	position:absolute;
+	bottom:1%;
+	display:flex;
+	justify-content:center;
+}
+.Bonvong li {
+	margin:.5rem;
+	cursor:pointer;
+	background:#FFFFFF;
+	width:.5rem;
+	height:.5rem;
+	border-radius:50%;
+	text-indent:-99999px;
+}
+.Bonvong li.hienhanh {
+	background-color:#BABCBE;}	
+
+/*---------------------------------------banner--------------------------------*/
+
+	
+.tag {
+	width:30%;
+	margin-top:1rem;
+	/*background-color:#CCC;*/
+	}
+.khung2 img{
+	width:70%;
+	}
+	.khung{
+	max-width:70%;
+	height:13.25rem;
+	padding-top:1rem;
+	}
+.khung p {
+	background-image:url(../img/trial3.png);
+	background-size:cover;
+	background-position:50% 36%;
+	background-repeat:no-repeat;
+	font-size:.675rem;
+	text-align:justify;
+	font-family:"avo";
+	}
+.text2{
+	list-style:none;
+	display:block;
+	}
+.text2 p{
+	font-family:"avo";
+	font-size:15px;
+	}
+.text3{
+	list-style:none;
+	display:block;
+	}
+.text3 p{
+	font-family:"avo";
+	font-size:15px;
+	}
+.hinhminhhoa {
+	background-image:url(../img/DSC_1468.png);
+	background-size:80%;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-bottom:.5rem;
+	}
+.hinhminhhoa2{
+	background-image:url(../img/2.png);
+	background-size:80%;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+.year {
+	font-size:20px;
+	}
+.khungtag img{
+	width:70%;
+	}
+	}
+@media only screen and (min-width: 60.063em){
+	.logo{
+		margin-top: 20px;
+		max-width: 13%;
+	}
+	.menuharuno{
+		top: 27px;
+		right: -45.5%;
+	}
+	.bavach{
+		margin-top: 5px;
+		margin-right: 20px;
+	}
+	.bavach a{
+		width: 35px;
+		height: 31px;
+	}
+	.icon-menu{
+		background-position: -6px -5px;
+	}
+	.menuan li a{
+		font-size: 22px;
+		position: relative;
+	}
+	.menuan li a:after{
+		content: '';
+		width: 0%;
+		height: 2px;
+		background-color: #6a943e;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -2px;
+		margin-left: auto;
+		margin-right: auto;
+		transition: width 0.25s ease-out;
+	}
+	.menuan li a:hover:after{
+		width: 100%;
+	}
+	.icon-menu.icon-menu-show{
+		transition: all 1.2s ease;
+		background-position: -65px -5px;
+	}
+	.trai{
+		margin: 0;
+		font-size: 14px;
+	}
+	.phai{
+		margin: 0;
+	}
+	.icon{
+		background-size: 180px;
+	}
+	.list-social li a{
+		width: 25px;
+		height: 25px;
+		margin-right: 0;
+		margin-left: 15px;
+	}
+	.icon-facebook{
+		background-position: -5px -5px;
+	}
+	.icon-facebook:hover{
+		background-position: -5px -54px;
+	}
+	.icon-instagram{
+		background-position: -54px -5px;
+	}
+	.icon-instagram:hover{
+		background-position: -54px -54px;
+	}
+	.list-social li .icon-twitter{
+		width: 24px;
+		background-position: -104px -5px;
+	}
+	.list-social li .icon-twitter:hover{
+		background-position: -104px -54px;
+	}
+	.list-social li .icon-pinterest{
+		width: 21px;
+		background-position: -154px -5px;
+	}
+	.list-social li .icon-pinterest:hover{
+		background-position: -154px -54px;
+	}
+	.khung{
+	max-width:80%;
+	height:15rem;
+	margin-top:2rem;
+	margin-bottom:1rem;
+	}
+.khung p {
+	background-image:url(../img/trial4.png);
+	background-size:100%;
+	background-position:50% 70.5%;
+	background-repeat:no-repeat;
+	padding:1rem;
+	font-size:1rem;
+	text-align:justify;
+	font-family:"avo";
+	}
+	.text2{
+	list-style:none;
+	display:block;
+	
+	}
+.text2 p{
+	font-family:"avo";
+	font-size:1.25rem;
+	margin-top:4rem;
+	}
+.text3{
+	list-style:none;
+	display:block;
+	}
+.text3 p{
+	font-family:"avo";
+	font-size:1.25rem;
+	margin-top:4rem;
+	}
+.hinhminhhoa {
+	background-image:url(../img/DSC_1468.png);
+	background-size:80%;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-bottom:.5rem;
+	}
+.hinhminhhoa2{
+	background-image:url(../img/2.png);
+	background-size:80%;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+.year {
+	font-size:2rem;
+	}
+.year:hover {
+	color:#55903E;
+	}
+	.hinhminhhoa{
+		position: relative;
+	}
+	.hinhminhhoa .nam1{
+		color: #6a943e;
+		font-weight: bold;
+		position: absolute;
+		top: 100px;
+		left: 75px;
+		visibility: hidden;
+		font-size: 5rem;
+		text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	}
+	.hinhminhhoa .vongtron1{
+		width: 20rem;
+		height: 20rem;
+		border-radius: 50%;
+		background-color: rgba(255,255,255,0.5);
+		z-index: 100;
+		position: absolute;
+		top:25px;
+		left: 40px;
+		visibility: hidden;
+	}
+	.hinhminhhoa2{
+		position: relative;
+	}
+	.hinhminhhoa2 .nam2{
+		color: #6a943e;
+		font-weight: bold;
+		position: absolute;
+		top: 100px;
+		left: 75px;
+		font-size: 5rem;
+		text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+		visibility: hidden;
+	}
+	.hinhminhhoa2 .vongtron2{
+		width: 20rem;
+		height: 20rem;
+		border-radius: 50%;
+		background-color: rgba(255,255,255,0.5);
+		z-index: 100;
+		position: absolute;
+		top:25px;
+		left: 40px;
+		visibility: hidden;
+	}
+	.hinhminhhoa:hover .nam1, .hinhminhhoa:hover .vongtron1, .hinhminhhoa2:hover .nam2, .hinhminhhoa2:hover .vongtron2{
+		visibility: visible
+	}		
+		/*------------------------------------------------------------------------*/
+	.bannerbox {
+	background-color:#666;
+	}
+	.Banner {
+	margin-top:1rem;
+}
+	* {
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+		      box-sizing:border-box;
+}
+.bannerBox {
+	height:550px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	width:100%;
+	position:relative;
+	/*background:#C60;*/
+	overflow:hidden;
+}
+.bannerBox > div {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	left:100%;
+}
+.bannerBox > div:first-child {left:0}
+.banner1 { background-image:url(../img/mt-aug13-0175-edit-u3170-fr.jpg); }
+.banner2 { background-image:url(../img/mt-aug13-0247-edit-u2892-fr.jpg); }
+.banner3 { background-image:url(../img/dd.jpg); }
+.banner4 { background-image:url(../img/Opening2-1024x621.jpg); }
+
+.Bonvong {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:100%;
+	position:absolute;
+	bottom:1%;
+	display:flex;
+	justify-content:center;
+}
+.Bonvong li {
+	margin:.5rem;
+	cursor:pointer;
+	background:#FFFFFF;
+	width:.5rem;
+	height:.5rem;
+	border-radius:50%;
+	text-indent:-99999px;
+}
+.Bonvong li.hienhanh {
+	background-color:#BABCBE;}
+	/*-----------------------------------------------------------*/	
+.nv p {
+	font-family:"avo";
+	text-align:center;
+	}	
+.nv p:hover{
+	color:#55903E;
+	}
+.nv ul{
+	list-style:none;
+	}
+.nv {
+	padding-bottom:1rem;
+	}
+	.khung2 img {
+		width:50%;
+		}
+		.tag img{
+			width:80%;
+			}
+	}	

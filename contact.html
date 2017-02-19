@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Haruno-Contact</title>
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/foundation.min.css" />
+<link rel="shortcut icon" href='img/logo.ico' type="image/x-icon" />
+<link rel="icon" href='img/logo.ico' type="image/x-icon" />
+<link href="css/foundation.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+  <div class="row"> <!--Logo vs Image-->
+    <div class='topmenu small-12 columns'>
+        <div class="logo"> 
+            <a href='index.html'><img src="img/logo.png"></img></a> 
+        </div>
+   		<nav id='menuharuno' class='menuharuno'>
+			<div id='bavach' class='bavach'><a href="#" id='showmainmenu' title='Menu' class='icon-menu'></a></div>
+			<ul class='menuan'>
+				<li><a href='homepage.html'>HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href='menu.html'>MENU</a></li>
+				<li><a href="promotion.html">PROMOTION</a></li>
+				<li><a href="contact.html"><span>CONTACT</span></a></li>
+			</ul>
+		</nav>   
+        </div>               
+  </div>
+</header>	
+	<div class='row'>
+		<div class='content small-12 columns'>
+			<div class='topic'><img src='img/contacimg.png'></div>
+			<div class='noidung-contact'>
+				<p>For questions about an order or for more information about our products</p>
+			</div>
+			<div class="infocontact">
+				<ul class="info">
+					<li>-Tel: (08)33 444 555</li>
+					<li>-Email: info@haruno.com</li>
+					<li>-Add: 20 Hai Ba Trung, District 1 </li>
+				</ul>
+		  	</div>    
+		</div>
+	</div>
+<div class='row'>
+	<div class='img show-for-large large-12 columns'>
+		<ul class='hinh1'>         		 
+			<li><img src="img/img1.png"></li>       		 
+			<li><img src="img/img2.png"></li>             
+		</ul>
+	</div>
+</div>
+<div class='row'>
+	<div class='yeucau small-12 columns'>
+		<p> Please fill in a form below for booking online</p>	
+			<form class='formtt'>
+				<label for="nhapten"></label>
+				<input type="text" placeholder ="Name *">
+				<label for="nhapemail"></label>
+				<input type="text"placeholder="Email *">
+			</form>
+		<div class="mess">
+			<label for="message"></label>
+			<textarea id="message" name="message" rows="9" cols="12" class="required_field" style="width:100%" placeholder="Message *"></textarea>
+		</div>
+		<div class="nutsend">
+			<input type="submit" name="button" value="SEND">
+		</div>
+    </div>
+</div>
+ <div class="row">
+ 	<div class="vitri show-for-large large-12 columns">
+ 		<img src="img/vitri.jpg">
+ 	</div>
+ </div>
+        <!---------------------------footer--------------------->
+ <footer>
+     <div class='row'>
+        <div class='chantrang small-12 columns'>
+            <div class='trai'>© 2014 Haruno Dessert Cafe</div>
+            <div class='phai'>
+                <ul class='list-social'>
+                    <li><a href="#" title='Facebook fanpage' class='icon icon-facebook'></a></li>
+                    <li><a href="#" title='Instagram' class='icon icon-instagram'></a></li>
+                    <li><a href="#" title='Twitter' class='icon icon-twitter'></a></li>
+                    <li><a href="#" title='Pinterest' class='icon icon-pinterest'></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery.js"></script> 
+<script src="js/vendor/what-input.js"></script> 
+<script src="js/vendor/foundation.min.js"></script> 
+<script src="js/jquery-migrate.min.js"></script>
+  <script>
+	$(function(){
+		$('#showmainmenu').click(function(){
+			$('#menuharuno').toggleClass('showmenu');
+			$('#showmainmenu').toggleClass('icon-menu-show');
+			return false;
+		});
+	}) 
+	</script>
+</body>
+</html>

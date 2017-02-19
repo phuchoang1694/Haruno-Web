@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Haruno-Promotion</title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/promotion.css" rel="stylesheet" type="text/css">
+	<link href="css/hieuung-2.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href='img/logo.ico' type="image/x-icon" />
+	<link rel="icon" href='img/logo.ico' type="image/x-icon" />
+	<link href="css/foundation.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class='menuholder'>
+		<nav id='menuharuno' class='menuharuno'>
+			<div id='bavach' class='bavach'><a href="#" id='showmainmenu' title='Menu' class='icon-menu'></a></div>
+			<ul class='menuan'>
+				<li><a href='homepage.html'><span>HOME</span></a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href='menu.html'>MENU</a></li>
+				<li><a href="promotion.html">PROMOTION</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</div>
+	<header>
+		<div class='logo'>
+		<a href="index.html"><img src='img/logo.png'></a>
+	</div>
+	</header>
+<div id="fullpage" class='fullpage1'>
+	<div class="section active" id="section3">
+		<div class='hinh-6 transition'>
+			<img class='hide-for-large' src="img/royal_s.jpg">
+			<img class='show-for-large' src="img/royal_l.jpg">
+		</div>
+		<div class='tet transition'><img src="img/tetgift.png"></div>
+		<div class='noidung-6 transition'>
+			<p class='show-for-large'>Tet holiday is the time for people to gather with their family and send their beloved one the greatest wishes.</p>
+		</div>
+		<div class='hinh-7 transition'><img src="img/IMG_2925.jpg"></div>
+		<div class='noidung-7 transition'>
+			<p>On this extraordinary special occasion, Haruno would love to give our dearest customers the sweetest gifts on behalf of our greetings.</p>
+		</div>
+		<div class='hinh-8 transition'><img src="img/IMG_9846_1024x1024.jpg"></div>
+	</div>
+	<div class="section" id="section0">
+		<div class='hinh-1 transition'><img src="img/comboleft.png"></div>
+		<div class='story transition'><img src="img/combofinal.png"></div>
+		<div class='noidung-1 transition'>
+			<p>Haruno brings you the most special price offer for "HARUNO COMBO" on Haruno Culture Day.</p>
+		</div>
+		<div class='hinh-0 transition'><img src="img/drinkncrepe.png"></div>
+	</div>
+	<div class="section" id="section1">
+			<div class='hinh-2 transition'>
+				<img  src="img/nhanvien2.png">
+			</div>
+			<div class='matcha transition'><img src="img/grandopening.png"></div>
+			<div class='noidung-2 transition'>
+				<p>To connect with other customers who have troubles in reaching Haruno, we decided to expand our coffee shop, as a result, there will be a second branches of Haruno which will be located in district 7. </p>
+			</div>
+            <div class='hinh-3 transition'>
+				<img src="img/branch.JPG">
+			</div>
+			<div class='noidung-3 transition'>
+				<p>Our new branch's grand-opening ceremony is predicted to occur in June 2016.</p>
+			</div>
+	</div>
+	<div class="section" id="section2">
+		<div class='menu transition'><img src="img/mochilogofinal.png"></div>	
+		<div class='hinh-4 transition'><img class='hide-for-large' src="img/mochi.jpg"> 
+        							   <img class='show-for-large' src="img/mochinoidung.png"></div>
+                                       
+		<div class='noidung-4 transition'>
+			<p class='hide-for-small', 'hide-for-large'>Mochi is a Japanese rice cake made of glutions rice which creates a chewy, sticky and soft flavor for this little cake. Mochi also represents for Japanses cuisine. For Japanese people, Mochi is offered up to the gods and it also brings luck to the person who ate it.
+</p>
+		</div>
+		<div class='noidung-5 transition'>
+			<img src="img/eatmochi.png">
+		</div>
+	</div>
+</div>
+<footer>
+		<div class='content clearfix'>
+			<div class='trai'>© 2014 Haruno Dessert Cafe</div>
+			<div class='phai'>
+				<ul class='list-social'>
+					<li><a href="#" title='Facebook fanpage' class='icon icon-facebook'></a></li>
+					<li><a href="#" title='Instagram' class='icon icon-instagram'></a></li>
+					<li><a href="#" title='Twitter' class='icon icon-twitter'></a></li>
+					<li><a href="#" title='Pinterest' class='icon icon-pinterest'></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="js/vendor/jquery.js"></script> 
+	<script src="js/vendor/what-input.js"></script> 
+	<script src="js/vendor/foundation.min.js"></script> 
+	<script src="js/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['Trang1', 'Trang2', 'Trang3', 'Trang4'],
+
+        afterLoad: function(anchorLink, index){
+            var loadedSection = $(this);
+			var animationEle = loadedSection.find('.transition');
+			
+			setTimeout(function(){
+			animationEle.addClass('animate-show');	
+			},5)
+        },
+				onLeave:function(){
+					var leavingSection = $(this);
+					var animationEle = leavingSection.find('.transition');
+					animationEle.removeClass('animate-show');
+					return true;
+				}
+			});
+			
+		});
+	</script>
+	<script>
+		$(function(){
+		$('#showmainmenu').click(function(){
+			$('#menuharuno').toggleClass('showmenu');
+			$('#showmainmenu').toggleClass('icon-menu-show');
+			return false;
+		})
+		})
+	</script>
+</body>
+</html>
